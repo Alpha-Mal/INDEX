@@ -144,7 +144,7 @@ v
 <script>
 function redirectTo() {
 	document.getElementById("myForm").submit();
-	window.location.replace("https://brajesh.simdif.com");
+	window.location.replace("http://bdsmarticle.wordpress.com");
 }
 </script>
 </html>
