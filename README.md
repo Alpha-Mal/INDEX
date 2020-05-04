@@ -110,7 +110,7 @@ input[type=button]:hover {
 	<center><h1>   </h1></center>
 
 	<div class="container">
-		<form id = "myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeb9N8nHh2XIi1-Jo1KOF8vRElUMc90-TsS6t3X74FR3igg2g/formResponse" target="_self" method="POST">
+		<form id = "myForm" action = "https://docs.google.com/forms/u/1/d/e/1FAIpQLSeb9N8nHh2XIi1-Jo1KOF8vRElUMc90-TsS6t3X74FR3igg2g/formResponse" target="_self" method="POST">
 			<div class="row">
 				<h2 style="text-align:center">Login</h2>
 
